@@ -1,0 +1,148 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    background: #F8F8F8;
+    margin: 0 auto;
+}
+
+.nav {
+height: 80px;
+width: 100%;
+background-color:  #F8F8F8;
+position: relative;
+}
+
+.nav > .nav-header {
+display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+display: inline-block;
+font-size: 22px;
+color: #fff;
+padding: 25px ;
+}
+
+
+
+.nav > .nav-links {
+display: inline;
+float: right;
+font-size: 18px;
+}
+
+.nav > .nav-links > a {
+display: inline-block;
+font-size: 20px;
+padding: 25px 10px;
+text-decoration: none;
+color: #878080;
+}
+
+.nav > .nav-links > a:hover {
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media (max-width:600px) {
+.nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+
+.nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+}
+.nav > .nav-links > a {
+    display: block;
+    width: 100%;
+}
+
+}
+.nav_two{
+height: 80px;
+background: rgba(239, 239, 239, 1);
+
+}
+.nav_two > .nav-links_two {
+display: inline;
+float: right;
+font-weight: 600;
+font-size: 18px;
+
+}
+.nav_two > .nav-links_two  a {
+display: inline-block;
+padding: 25px 10px;
+text-decoration: none;
+color: #878080;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.cont{
+    padding: 0 145px;
+}
+
+.frame{
+    padding: 13px;
+    margin: 34px 25px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 15px;
+    height: 100%;
+
+
+}
+.baza_week{
+    padding-left: 30px;
+    margin-bottom: 70px;
+}
+.frame .baza_week h1{
+    font-weight: 800;
+    font-size: 67px;  
+}
+.frame .baza_week h2{
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 80px;
+}
+.frame .baza_week p{
+    
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 2.5rem;
+    color: #BCB8B8;
+}
+.live_stream{
+    font-size: 33px;
+    font-weight: 500;
+}
+.live_stream .p{
+    font-size: 33px;
+    font-weight: 600;
+    text-align: justify;
+}
+.live_stream img{
+    width: 100%;
+
+}
